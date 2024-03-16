@@ -1,0 +1,1 @@
+az cognitiveservices account keys regenerate --name mslearn-duy --resource-group AI --key-name key1

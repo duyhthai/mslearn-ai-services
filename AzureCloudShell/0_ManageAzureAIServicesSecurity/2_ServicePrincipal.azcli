@@ -1,0 +1,8 @@
+# Create service principal
+az ad sp create-for-rbac -n "api://mslearn-ai-vault" --role owner --scopes subscriptions/09bb6d8b-5ed9-4692-b5d4-f2e8fe6459dd/resourceGroups/AI
+
+# Get object ID
+az ad sp show --id 7e7a75e8-29d4-4417-ae61-b021cbb6de68
+
+# Assign permission
+ az keyvault set-policy -n mslearn-ai-vault --object-id 71cebe9d-e00d-43fd-95c6-6c6640cb6586 --secret-permissions get list
