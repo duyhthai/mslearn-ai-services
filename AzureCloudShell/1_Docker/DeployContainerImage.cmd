@@ -1,0 +1,1 @@
+ docker run --rm -it -p 5000:5000 --memory 12g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language:latest Eula=accept Billing=https://mslearn-duy.cognitiveservices.azure.com ApiKey=58f931f67b704672b937753d600fe505
