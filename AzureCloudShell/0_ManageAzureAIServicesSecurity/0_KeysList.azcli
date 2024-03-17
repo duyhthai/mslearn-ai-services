@@ -1,1 +1,0 @@
-az cognitiveservices account keys list --name mslearn-duy --resource-group AI
