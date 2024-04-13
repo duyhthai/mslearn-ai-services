@@ -1,5 +1,6 @@
 # List
 az cognitiveservices account keys list --name mslearn-duy --resource-group AI
+az cognitiveservices account keys list --name mslearn-moderator --resource-group AI
 
 # Regenerate
 az cognitiveservices account keys regenerate --name mslearn-duy --resource-group AI --key-name key1
